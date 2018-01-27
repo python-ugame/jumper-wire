@@ -122,7 +122,7 @@ class Bolt(stage.Sprite):
 
 
 walls = stage.Bank.from_bmp16("walls.bmp")
-tiles = stage.Bank.from_bmp16("tiles.bmp")
+tiles = stage.Bank.from_bmp16("jumper.bmp")
 bmp = stage.BMP16("level.bmp")
 bmp.read_header()
 layer1 = stage.Grid(tiles, buffer=bmp.read_data())
